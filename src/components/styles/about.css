@@ -1,0 +1,44 @@
+/** @format */
+
+
+.myProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(194, 194, 194);
+  width: 100%;
+
+  flex-wrap: wrap;
+
+  padding: 5px;
+}
+.myProjects div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  background-color: #ffffff;
+  box-shadow: 2px 4px 6px #cecece;
+  text-align: center;
+  text-shadow: 2px 3px 4px rgb(155, 22, 22);
+  text-transform: uppercase;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  border: 3px dotted rgb(184, 36, 36);
+}
+.myProjects div a {
+  font-size: 18px;
+  text-align: center;
+  justify-self: center;
+}
+.about-header {
+  text-align: center;
+}
+.about-info {
+  padding: 10px ;
+  margin:  4px;
+  text-align: center;
+}

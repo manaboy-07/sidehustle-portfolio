@@ -1,0 +1,42 @@
+/** @format */
+
+.text-center {
+  text-align: center;
+}
+h1 {
+  padding: 5px 2px;
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+  padding: 5px 0;
+  margin: 7px 0;
+}
+.practical-stuffs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 8px;
+
+  margin: 10px 5px;
+}
+.practices {
+  box-shadow: 3px 4px 7px #d33232;
+  z-index: 9999;
+  padding: 10px 4px;
+  margin: 20px 6px;
+}
+.red {
+  color: rgb(223, 54, 54);
+}
+p {
+  font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .practices {
+    z-index: 9999;
+    padding: 10px 4px;
+    margin: 20px 6px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+/** @format */
+
+.text-center {
+  text-align: center;
+}
+.school-name {
+  font-weight: bold;
+}
+.education-container {
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
+.big {
+  font-size: 25px;
+}
